@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 
-cluster = MongoClient("mongodb+srv://Kelvin:Kelvin@whatsapp.aagnrkw.mongodb.net/?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://Kelvin:Kelvin@whatsapp.aagnrkw.mongodb.net/?retryWrites=true&w=majority&appName=Whatsapp")
 
 db = cluster["Bakery"]
 users = db["users"]
